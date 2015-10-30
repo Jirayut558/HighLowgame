@@ -1,0 +1,6 @@
+E:\Computer Engineering\ปี 2\First Semester\OOP\PreProject\HighLowGame\HighLowGame\bin\Debug\HighLowGame.exe.config
+E:\Computer Engineering\ปี 2\First Semester\OOP\PreProject\HighLowGame\HighLowGame\bin\Debug\HighLowGame.exe
+E:\Computer Engineering\ปี 2\First Semester\OOP\PreProject\HighLowGame\HighLowGame\bin\Debug\HighLowGame.pdb
+E:\Computer Engineering\ปี 2\First Semester\OOP\PreProject\HighLowGame\HighLowGame\obj\Debug\HighLowGame.csprojResolveAssemblyReference.cache
+E:\Computer Engineering\ปี 2\First Semester\OOP\PreProject\HighLowGame\HighLowGame\obj\Debug\HighLowGame.exe
+E:\Computer Engineering\ปี 2\First Semester\OOP\PreProject\HighLowGame\HighLowGame\obj\Debug\HighLowGame.pdb
