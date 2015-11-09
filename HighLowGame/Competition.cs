@@ -96,7 +96,7 @@ namespace HighLowGame
                     Console.WriteLine("   " + cardforp_1.card[n] + "\t\t" + _player[0].name);
                     Console.WriteLine("   " + cardforp_2.card[n] + "\t\t" + _player[1].name);
                    
-                    if (cardforp_1.card[n].value <= (n + 1))
+                    if (cardforp_1.card[n].value <(n + 1))
                     {
                         Console.WriteLine(" Get Last card of new setofcards " + cardforp_1.card[n].value +" cards");
                         if (cardforp_1.card[n - 1].value != cardforp_2.card[n - 1].value)
