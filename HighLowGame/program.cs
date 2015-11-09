@@ -12,8 +12,8 @@ namespace HighLowGame
         {
             Competition game = new Competition();
             game.start();
-            game.process();
-            Console.WriteLine("\t\t The Winner is "+game.getwinner());          
+
+            Console.ReadLine();
             Console.ReadLine();
         }
     }

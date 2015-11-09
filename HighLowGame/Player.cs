@@ -9,8 +9,8 @@ namespace HighLowGame
     class Player
     {
         private string _name;
-        private int _countcard, _wincard;       
-        
+        private int _countcard, _wincard;
+
         public string name
         {
             get { return _name; }

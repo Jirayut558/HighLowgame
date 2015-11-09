@@ -18,19 +18,19 @@ namespace HighLowGame
         public Deck()
         {
             for (int i = 0; i < 52; i++)
-            {              
-                    _card[i] = new Card();             
+            {
+                _card[i] = new Card();
             }
         }
         public void createcard()
-        {           
+        {
             int index = 0;
-            for(int i=0;i<4;i++)
+            for (int i = 0; i < 4; i++)
             {
-                for(int j=0;j<13;j++)
+                for (int j = 0; j < 13; j++)
                 {
                     _card[index] = new Card();
-                    _card[index].setCard(j,i);
+                    _card[index].setCard(j, i);
                     index++;
                 }
             }

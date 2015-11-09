@@ -15,7 +15,7 @@ namespace HighLowGame
         {
             get { return _Value; }
             set { }
-        } 
+        }
         public string suit
         {
             get { return _Suit; }
@@ -25,26 +25,26 @@ namespace HighLowGame
         public Card()
         {
             _Value = 0;
-            _Suit =_Name= "0";
+            _Suit = _Name = "0";
         }
-        public void setCard(int n,int s)
+        public void setCard(int n, int s)
         {
-            _Value = n;
-            if(n>0&&n<10)
+            _Value = (n + 1);
+            if (_Value > 1 && _Value < 10)
             {
-                _Name = "" + n;
+                _Name = "" + _Value;
             }
             else
             {
-                if(n==0)
+                if (_Value == 1)
                 {
                     _Name = "Ace";
                 }
-                else if (n == 10)
+                else if (_Value == 10)
                 {
                     _Name = "Jack";
                 }
-                else if(n == 11)
+                else if (_Value == 11)
                 {
                     _Name = "Queen";
                 }
@@ -53,7 +53,7 @@ namespace HighLowGame
                     _Name = "King";
                 }
             }
-            switch(s)
+            switch (s)
             {
                 case 0:
                     _Suit = "spades";
@@ -72,7 +72,7 @@ namespace HighLowGame
         }
         public override string ToString()
         {
-            return string.Format("{0} of {1}",_Name,_Suit);
+            return string.Format("{0} of {1}", _Name, _Suit);
         }
     }
 }
